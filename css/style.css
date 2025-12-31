@@ -2237,6 +2237,76 @@ Action-box Page
     color: #fff;
 }
 
+/*.mobile-container{
+	display: block !important;
+	background: #fddb00;
+	padding: 10px;
+	margin-bottom: 20px;
+}*/
+
+.careers .table thead {
+    background-color: #117bc3;
+    color: #fff;
+    border-bottom: none;
+}
+
+.apply-btn {
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
+    line-height: 1.4;
+    font-weight: 600;
+    padding: 12px 24px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #fff;
+    border: 2px solid #117bc3;
+    background-color: #117bc3;
+    box-sizing: border-box;
+    transition: all 0.4s;
+    -ms-border-radius: 45px;
+    border-radius: 45px;
+}
+
+.job-apply {
+    background-color: #f5f4f4;
+    padding: 25px;
+    border: 1px solid #e6e3e3;
+    border-radius: 5px;
+}
+
+.bluebar {
+    background-color: transparent;
+    padding-bottom: 5px;
+    position: relative;
+    margin-top: -51px;
+}
+
+.bluebar ul {
+    list-style: none;
+}
+
+.bluebar ul li a {
+    color: #000;
+    float: left;
+    background-color: #fff;
+    width: calc(94%/4);
+    margin: 0px 8px;
+    text-align: center;
+    padding: 8px 0px;
+    border-bottom: 1px solid #ccc;
+}
+
+.bluebar ul li a:hover {
+    background-color: #117bc3;
+    color: #fff;
+}
+
+.bluebar ul li.active a {
+    background-color: #117bc3;
+    color: #fff;
+}
+
 @media (max-width: 1350px) {
     .bluebar ul li a {
         width: calc(90%/4);
@@ -2252,6 +2322,7 @@ Action-box Page
         display: inline-block !important;
         background: #201e1f;
         padding: 10px;
+        float: right;
         margin: 12px 0;
     }
     .mobile-container i {
